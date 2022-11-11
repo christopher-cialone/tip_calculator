@@ -4,10 +4,10 @@ def cialone_python_calculator():
   # print message
   print("Welcome to christopher_cialone's tip-calculator")
   # variable meal set to what the user inputs
-  meal = float(input('Enter the cost of meal $: ')) # must be a number or code breaks. if code breaks prompt user to enter an integer
-  # variable tip equals set to an input of the user choice
+  meal = float(input('Enter the cost of meal $: ')) 
+  # variable tip set to an input of the user choice
   tip = float(input('Enter the tip %: '))
-  # Could have hard-coded tip to equal 10%
+  # variable tax set to an input of the user state sales tax
   tax = float(input('Enter the state sales tax %: '))
   # variable ppl_splitting set to the number of people paying 
   ppl_splitting = int(input('Enter the number of people paying : '))
@@ -28,7 +28,7 @@ def cialone_python_calculator():
 
 # 
 # this statement is giving the option to the user, whether or not they would like to continue on and calculate more
-  the_next_tip = input("Press n to exit or continue on by entering any number ): ')
+  the_next_tip = input('Press n to exit or continue on by entering any number ')
   print(the_next_tip)
   for answer in the_next_tip:
       if answer == 'n': # 'n' is the exit from our program
